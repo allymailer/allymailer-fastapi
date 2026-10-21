@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "allymailer-fastapi"
-version = "1.0.0"
+version = "1.1.1"
 description = "AllyMailer Web API for FastAPI: API client, webhooks"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -12,7 +12,7 @@ license = { text = "MIT" }
 authors = [{ name = "AllyMailer" }]
 keywords = ["allymailer", "fastapi", "email", "webhook"]
 classifiers = ["Framework :: FastAPI"]
-dependencies = ["allymailer-python-sdk>=1.0.0", "fastapi>=0.100"]
+dependencies = ["allymailer-python-sdk>=1.1.1", "fastapi>=0.100"]
 
 [project.urls]
 Homepage = "https://github.com/allymailer/allymailer-fastapi"
